@@ -1,0 +1,77 @@
+* {
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: inline-flex;
+}
+.login_img {
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.text-container {
+  margin-left: 80px;
+  margin-top: 0px;
+}
+.inner-left-container {
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 180px;
+  height: 650px;
+  width: 570px;
+}
+.google-button {
+  background-color: white;
+}
+.sign-up-text {
+  color: gainsboro;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.hr-text-01 {
+  color: gainsboro;
+  background-color: gray;
+  float: left;
+  height: 0px;
+  width: 100px;
+}
+.hr-text-02 {
+  color: gainsboro;
+  background-color: gray;
+  float: right;
+  height: 0px;
+  width: 100px;
+}
+#name {
+  border-radius: 25px;
+  width: 350px;
+  height: 35px;
+}
+#email {
+  border-radius: 25px;
+  width: 350px;
+  height: 35px;
+}
+#password {
+  border-radius: 25px;
+  width: 350px;
+  height: 35px;
+}
+#checkbox {
+}
+#button {
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  width: 350px;
+  height: 35px;
+}
+.inner-right-container {
+  border: 1px solid black;
+  height: 650px;
+  width: 570px;
+  margin-top: 40px;
+}
