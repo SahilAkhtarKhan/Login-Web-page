@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Length Converter</title>
+    <style>
+      body {
+        background-color: #237a57;
+      }
+      .container {
+        border: 1px solid silver;
+        border-radius: 20px;
+        width: 350px;
+        height: 430px;
+        margin-top: 200px;
+        margin-left: 200px;
+        background-color: aliceblue;
+      }
+      h1 {
+        text-align: center;
+        border-bottom: 1px solid silver;
+        color: white;
+        background-color: green;
+        margin: 0;
+        border-top-right-radius: inherit;
+        border-top-left-radius: inherit;
+      }
+      .inside-body {
+        padding-left: 85px;
+        padding-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Length Converter</h1>
+      <div class="inside-body">
+        <div>
+          <label>Kilometers</label><br />
+          <input type="number" name="number" id="kilometer" />
+        </div>
+        <br />
+        <div>
+          <label>Miles</label><br />
+          <input type="number" name="number" id="miles" />
+        </div>
+        <br />
+        <div>
+          <label>Feet</label><br />
+          <input type="number" name="number" id="feet" />
+        </div>
+        <br />
+        <div>
+          <label>Cm</label><br />
+          <input type="number" name="number" id="cm" />
+        </div>
+        <br />
+        <div>
+          <label>Inch</label><br />
+          <input type="number" name="number" id="inch" />
+        </div>
+        <br />
+        <button onclick="convert()">Convert</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    function convert() {
+      var kilometer = document.getElementById("kilometer").value;
+      var miles = kilometer * 0.621371;
+      document.write(miles + " Miles");
+    }
+  </script>
+</html>

@@ -1,0 +1,40 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+.display {
+  background-color: aliceblue;
+  width: 450px;
+  height: 600px;
+  margin: auto;
+}
+.heading{
+  text-align: center;
+  padding-top: 5px;
+}
+.button-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* justify-content: center; */
+  text-align: center;
+}
+.button-container > div {
+  background-color: lightgray;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container .ac {
+  background-color: darksalmon;
+}
+.button-container .ce {
+  background-color: darksalmon;
+}
+.button-container .zero{
+  width: 190px;
+}

@@ -1,0 +1,48 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+  margin: 25px;
+}
+div > img{
+  position: relative;
+  width: 200px;
+}
+.rating{
+  background-color: aliceblue;
+  opacity: 0.7;
+  width: 65px;
+  position: relative;
+  bottom: 25px;
+  left: 6px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+.rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description{
+  padding-left: 10px;
+  font-size: 14px;
+}
+.description h3{
+  margin: 0px;
+}
+.description p{
+  margin: 0px;
+  color: gray;
+}
+.price-detail{
+  font-size: 12px;
+  margin-top: 7px;
+}
+.price{
+  color: gray;
+  margin-left: 7px;
+}

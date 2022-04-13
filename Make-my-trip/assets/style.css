@@ -1,0 +1,102 @@
+body{
+    background-color: lightblue;
+}
+.parent-container{
+    background-color: white;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 12px;
+    margin: 145px;
+    border-radius: 12px;
+}
+.child-container-01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.trip{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 6px;
+}
+.way{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.booking-flight-link a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.child-container-02{
+    border: 1px solid silver;
+    border-radius: inherit;
+    /* height: 90px;
+    padding: 12px 25px; */
+}
+.cities{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cities > div > h2{
+    margin: 8px 0 0 0 ;
+}
+.travellers-class > p{
+    margin: 0px;
+}
+.departure-date > p{
+    margin: 0px;
+}
+.to-city > p{
+    margin: 0px;
+}
+.from-city > p {
+    margin: 0
+}
+.from-city{
+    flex: 2.5;
+    border-right: 1px solid silver;
+    padding: 12px;
+    cursor: pointer;
+}
+.from-city:hover {
+    background-color: green;
+    border-radius: 10px;
+}
+.to-city{
+    flex: 2.5;
+}
+.departure-date{
+    flex: 1;
+}
+.return-date{
+    flex: 1;
+}
+.travellers-class{
+    flex: 2;
+}
+.return-data{
+    margin-top: 8px;
+}
+.return{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
